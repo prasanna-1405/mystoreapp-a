@@ -41,6 +41,7 @@ export default function Products() {
             <img src={product.image} alt={product.name} className="product-image" />
             <h3>{product.name}</h3>
             <h4>${product.price}</h4>
+            <button>Add to Cart</button>
           </div>
         ))}
       </div>
